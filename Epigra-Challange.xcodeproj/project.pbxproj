@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AEBAACE75200781E2DB7066E /* Pods_Epigra_Challange.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1BCD976B79C1E8591EE08AF /* Pods_Epigra_Challange.framework */; };
+		DDAF4093224105D600841C48 /* AlbumPhotosData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF4092224105D600841C48 /* AlbumPhotosData.swift */; };
+		DDAF409522410AC600841C48 /* AlbumsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF409422410AC600841C48 /* AlbumsAPI.swift */; };
+		DDAF409922410B4200841C48 /* AlbumPhotosAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF409822410B4200841C48 /* AlbumPhotosAPI.swift */; };
+		DDAF409B224126DE00841C48 /* AlbumPhotosVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDAF409A224126DE00841C48 /* AlbumPhotosVC.swift */; };
+		DDBD18BE22438C1200F56E21 /* AlbumDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBD18BD22438C1200F56E21 /* AlbumDetailVC.swift */; };
+		DDC5C9D22241A52E003C128A /* AlbumPhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC5C9D12241A52E003C128A /* AlbumPhotosCell.swift */; };
+		DDC98BB0224054C800B2BBC1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC98BAF224054C800B2BBC1 /* AppDelegate.swift */; };
+		DDC98BB8224054C800B2BBC1 /* Epigra_Challange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DDC98BB6224054C800B2BBC1 /* Epigra_Challange.xcdatamodeld */; };
+		DDC98BBA224054CC00B2BBC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDC98BB9224054CC00B2BBC1 /* Assets.xcassets */; };
+		DDC98BBD224054CC00B2BBC1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DDC98BBB224054CC00B2BBC1 /* LaunchScreen.storyboard */; };
+		DDC98BD222405A3000B2BBC1 /* AlbumsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC98BD122405A3000B2BBC1 /* AlbumsVC.swift */; };
+		DDC98BD4224063A800B2BBC1 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC98BD3224063A800B2BBC1 /* Alamofire.framework */; };
+		DDC98BD8224068BA00B2BBC1 /* AlbumsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDC98BD7224068BA00B2BBC1 /* AlbumsData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		60F0EDA668B618F6E4378516 /* Pods-Epigra-Challange.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epigra-Challange.debug.xcconfig"; path = "Target Support Files/Pods-Epigra-Challange/Pods-Epigra-Challange.debug.xcconfig"; sourceTree = "<group>"; };
+		D1BCD976B79C1E8591EE08AF /* Pods_Epigra_Challange.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Epigra_Challange.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDAF4092224105D600841C48 /* AlbumPhotosData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosData.swift; sourceTree = "<group>"; };
+		DDAF409422410AC600841C48 /* AlbumsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsAPI.swift; sourceTree = "<group>"; };
+		DDAF409822410B4200841C48 /* AlbumPhotosAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosAPI.swift; sourceTree = "<group>"; };
+		DDAF409A224126DE00841C48 /* AlbumPhotosVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosVC.swift; sourceTree = "<group>"; };
+		DDBD18BD22438C1200F56E21 /* AlbumDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumDetailVC.swift; sourceTree = "<group>"; };
+		DDC5C9D12241A52E003C128A /* AlbumPhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumPhotosCell.swift; sourceTree = "<group>"; };
+		DDC98BAC224054C800B2BBC1 /* Epigra-Challange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Epigra-Challange.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC98BAF224054C800B2BBC1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDC98BB7224054C800B2BBC1 /* Epigra_Challange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Epigra_Challange.xcdatamodel; sourceTree = "<group>"; };
+		DDC98BB9224054CC00B2BBC1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDC98BBC224054CC00B2BBC1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDC98BBE224054CC00B2BBC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDC98BD122405A3000B2BBC1 /* AlbumsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsVC.swift; sourceTree = "<group>"; };
+		DDC98BD3224063A800B2BBC1 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDC98BD7224068BA00B2BBC1 /* AlbumsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumsData.swift; sourceTree = "<group>"; };
+		E4F1022F38622108A56C10E5 /* Pods-Epigra-Challange.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Epigra-Challange.release.xcconfig"; path = "Target Support Files/Pods-Epigra-Challange/Pods-Epigra-Challange.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDC98BA9224054C800B2BBC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC98BD4224063A800B2BBC1 /* Alamofire.framework in Frameworks */,
+				AEBAACE75200781E2DB7066E /* Pods_Epigra_Challange.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		315691922980395E3C32689F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BD3224063A800B2BBC1 /* Alamofire.framework */,
+				D1BCD976B79C1E8591EE08AF /* Pods_Epigra_Challange.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C011B50AF8022E50538E6257 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60F0EDA668B618F6E4378516 /* Pods-Epigra-Challange.debug.xcconfig */,
+				E4F1022F38622108A56C10E5 /* Pods-Epigra-Challange.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DDC98BA3224054C800B2BBC1 = {
+			isa = PBXGroup;
+			children = (
+				DDC98BAE224054C800B2BBC1 /* Epigra-Challange */,
+				DDC98BAD224054C800B2BBC1 /* Products */,
+				C011B50AF8022E50538E6257 /* Pods */,
+				315691922980395E3C32689F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDC98BAD224054C800B2BBC1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BAC224054C800B2BBC1 /* Epigra-Challange.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDC98BAE224054C800B2BBC1 /* Epigra-Challange */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BCE2240560500B2BBC1 /* View */,
+				DDC98BCB224055E200B2BBC1 /* Controller */,
+				DDC98BCF2240564100B2BBC1 /* Model */,
+				DDC98BCC224055E200B2BBC1 /* Utilities */,
+				DDC98BD02240569B00B2BBC1 /* SupportFiles */,
+				DDC98BB9224054CC00B2BBC1 /* Assets.xcassets */,
+				DDC98BB6224054C800B2BBC1 /* Epigra_Challange.xcdatamodeld */,
+			);
+			path = "Epigra-Challange";
+			sourceTree = "<group>";
+		};
+		DDC98BCB224055E200B2BBC1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BD122405A3000B2BBC1 /* AlbumsVC.swift */,
+				DDAF409A224126DE00841C48 /* AlbumPhotosVC.swift */,
+				DDC5C9D12241A52E003C128A /* AlbumPhotosCell.swift */,
+				DDBD18BD22438C1200F56E21 /* AlbumDetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DDC98BCC224055E200B2BBC1 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BD7224068BA00B2BBC1 /* AlbumsData.swift */,
+				DDAF4092224105D600841C48 /* AlbumPhotosData.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DDC98BCE2240560500B2BBC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BBB224054CC00B2BBC1 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DDC98BCF2240564100B2BBC1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDAF409422410AC600841C48 /* AlbumsAPI.swift */,
+				DDAF409822410B4200841C48 /* AlbumPhotosAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DDC98BD02240569B00B2BBC1 /* SupportFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DDC98BBE224054CC00B2BBC1 /* Info.plist */,
+				DDC98BAF224054C800B2BBC1 /* AppDelegate.swift */,
+			);
+			name = SupportFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDC98BAB224054C800B2BBC1 /* Epigra-Challange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDC98BC1224054CC00B2BBC1 /* Build configuration list for PBXNativeTarget "Epigra-Challange" */;
+			buildPhases = (
+				B373DD6174AFD72507E98A25 /* [CP] Check Pods Manifest.lock */,
+				DDC98BA8224054C800B2BBC1 /* Sources */,
+				DDC98BA9224054C800B2BBC1 /* Frameworks */,
+				DDC98BAA224054C800B2BBC1 /* Resources */,
+				FE6F01AFAF2C2CA70B86A51C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Epigra-Challange";
+			productName = "Epigra-Challange";
+			productReference = DDC98BAC224054C800B2BBC1 /* Epigra-Challange.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDC98BA4224054C800B2BBC1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Yusuf DEMİRKOPARAN";
+				TargetAttributes = {
+					DDC98BAB224054C800B2BBC1 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = DDC98BA7224054C800B2BBC1 /* Build configuration list for PBXProject "Epigra-Challange" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDC98BA3224054C800B2BBC1;
+			productRefGroup = DDC98BAD224054C800B2BBC1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDC98BAB224054C800B2BBC1 /* Epigra-Challange */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDC98BAA224054C800B2BBC1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDC98BBD224054CC00B2BBC1 /* LaunchScreen.storyboard in Resources */,
+				DDC98BBA224054CC00B2BBC1 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B373DD6174AFD72507E98A25 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Epigra-Challange-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE6F01AFAF2C2CA70B86A51C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Epigra-Challange/Pods-Epigra-Challange-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Epigra-Challange/Pods-Epigra-Challange-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDC98BA8224054C800B2BBC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDAF409922410B4200841C48 /* AlbumPhotosAPI.swift in Sources */,
+				DDAF4093224105D600841C48 /* AlbumPhotosData.swift in Sources */,
+				DDAF409522410AC600841C48 /* AlbumsAPI.swift in Sources */,
+				DDBD18BE22438C1200F56E21 /* AlbumDetailVC.swift in Sources */,
+				DDC98BB0224054C800B2BBC1 /* AppDelegate.swift in Sources */,
+				DDC98BD222405A3000B2BBC1 /* AlbumsVC.swift in Sources */,
+				DDAF409B224126DE00841C48 /* AlbumPhotosVC.swift in Sources */,
+				DDC98BD8224068BA00B2BBC1 /* AlbumsData.swift in Sources */,
+				DDC98BB8224054C800B2BBC1 /* Epigra_Challange.xcdatamodeld in Sources */,
+				DDC5C9D22241A52E003C128A /* AlbumPhotosCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDC98BBB224054CC00B2BBC1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDC98BBC224054CC00B2BBC1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDC98BBF224054CC00B2BBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDC98BC0224054CC00B2BBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDC98BC2224054CC00B2BBC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F0EDA668B618F6E4378516 /* Pods-Epigra-Challange.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95Q8H6K2TQ;
+				INFOPLIST_FILE = "Epigra-Challange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ydemirkoparan.Epigra-Challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDC98BC3224054CC00B2BBC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F1022F38622108A56C10E5 /* Pods-Epigra-Challange.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 95Q8H6K2TQ;
+				INFOPLIST_FILE = "Epigra-Challange/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ydemirkoparan.Epigra-Challange";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDC98BA7224054C800B2BBC1 /* Build configuration list for PBXProject "Epigra-Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC98BBF224054CC00B2BBC1 /* Debug */,
+				DDC98BC0224054CC00B2BBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDC98BC1224054CC00B2BBC1 /* Build configuration list for PBXNativeTarget "Epigra-Challange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDC98BC2224054CC00B2BBC1 /* Debug */,
+				DDC98BC3224054CC00B2BBC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DDC98BB6224054C800B2BBC1 /* Epigra_Challange.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DDC98BB7224054C800B2BBC1 /* Epigra_Challange.xcdatamodel */,
+			);
+			currentVersion = DDC98BB7224054C800B2BBC1 /* Epigra_Challange.xcdatamodel */;
+			path = Epigra_Challange.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DDC98BA4224054C800B2BBC1 /* Project object */;
+}
